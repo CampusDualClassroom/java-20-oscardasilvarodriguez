@@ -11,6 +11,6 @@ public class PoliceOfficer extends Person {
 
 	@Override
 	public void getDetails() {
-		System.out.println("Doctor " + name + " " + surname + ", especialista en " + squad.toLowerCase());
+		System.out.println("Nombre completo " + super.name + " " + super.surname + ", especialista en " + this.squad.toLowerCase());
 	}
 }
